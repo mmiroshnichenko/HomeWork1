@@ -28,6 +28,8 @@ public class MainController {
             } while (c != menuExit);
         } catch (IOException e) {
             System.out.println("Input output exception: " + e);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

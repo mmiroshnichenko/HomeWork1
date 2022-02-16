@@ -1,5 +1,5 @@
 Goal:
-Create console CRUD application with has next entities:
+Create console CRUD application witch has next entities:
 
 Writer (id, firstName, lastName, List<Post> posts)
 Post (id, content, created, updated, List<Label> labels)
@@ -9,5 +9,5 @@ PostStatus (enum ACTIVE, UNDER_REVIEW, DELETED)
 Store data in files:
 writers.json, posts.json, labels.json
 
-For start
+For start:
 Run static method Main() of MainController
